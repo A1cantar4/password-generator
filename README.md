@@ -40,4 +40,4 @@ Opção de incluir letras maiúsculas, números e símbolos
 Interface simples via terminal
 
 ## 📄 Licença
-Este projeto está licenciado sob a MIT License. Autor  Sinta-se livre para usar e modificar.
+Este projeto está licenciado sob a MIT License. Sinta-se livre para usar e modificar.
