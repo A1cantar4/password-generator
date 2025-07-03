@@ -4,11 +4,9 @@ Este é um projeto em Python que gera senhas aleatórias personalizadas, permiti
 
 ## 🚀 Como usar
 
-1. Clone este repositório ou baixe o arquivo `password_generator.py`.
-
-2. No terminal, execute:
-
-python password_generator.py
+## 1. Clone este repositório ou baixe o arquivo `password_generator.py`.
+## 2. No terminal, execute:
+## python password_generator.py
 
 Siga as instruções na tela para escolher:
 
