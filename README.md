@@ -21,9 +21,13 @@ Se deseja incluir símbolos especiais
 ## 💻 Exemplo de uso
 
 === Gerador de Senhas Aleatórias ===
+
 Digite o tamanho da senha (ex.: 12): 16
+
 Incluir letras maiúsculas? (s/n): s
+
 Incluir números? (s/n): s
+
 Incluir símbolos? (s/n): s
 
 Senha gerada:
