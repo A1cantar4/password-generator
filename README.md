@@ -1,27 +1,34 @@
-# 🔑 Gerador de Senhas Aleatórias
+# Password Generator
 
-Este é um projeto em Python que gera senhas aleatórias personalizadas, permitindo definir o tamanho e os tipos de caracteres que a senha deve conter.
+A simple and customizable random password generator built in Python. This script allows users to generate secure passwords based on selected criteria such as length, uppercase letters, digits, and symbols.
 
-## 🚀 Como usar
+## Features
 
-1. Clone este repositório ou baixe o arquivo `password_generator.py`.
+- Custom password length  
+- Option to include:
+  - Uppercase letters  
+  - Numbers  
+  - Symbols  
+- Default fallback values to avoid crashes  
+- User-friendly prompts in Portuguese  
 
-2. No terminal, execute:
+## Requirements
 
+- Python 3.x (recommended: 3.6+)
+
+## How to Run
+
+Clone the repository or copy the script, then run it using Python:
+
+```bash
 python password_generator.py
+```
 
-Siga as instruções na tela para escolher:
+Follow the interactive prompts in the terminal to generate your custom password.
 
-O tamanho da senha
+## Example Output
 
-Se deseja incluir letras maiúsculas
-
-Se deseja incluir números
-
-Se deseja incluir símbolos especiais
-
-## 💻 Exemplo de uso
-
+```
 === Gerador de Senhas Aleatórias ===
 Digite o tamanho da senha (ex.: 12): 16
 Incluir letras maiúsculas? (s/n): s
@@ -29,17 +36,24 @@ Incluir números? (s/n): s
 Incluir símbolos? (s/n): s
 
 Senha gerada:
-a7S@fG9!kL2#qW3e
+A8$npLs5Z@k1!W2e
+```
 
-## 📦 Requisitos
-Python 3.x instalado na máquina
+## File Structure
 
-## ✅ Funcionalidades
-Geração de senhas com tamanho configurável
+```
+password_generator.py   # Main script
+```
 
-Opção de incluir letras maiúsculas, números e símbolos
+## Author
 
-Interface simples via terminal
+[A1cantar4](https://github.com/A1cantar4)  
+Feel free to follow or reach out with feedback or ideas!
 
-## 📄 Licença
-Este projeto está licenciado sob a MIT License. Autor  Sinta-se livre para usar e modificar.
+## License
+
+This project is open-source and available under the [MIT License](LICENSE).
+
+---
+
+Feel free to improve the script, adapt it to your needs, or integrate it into a larger project. Contributions are welcome!

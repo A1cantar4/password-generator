@@ -1,11 +1,9 @@
-# Gerador de senhas aleatórias
-# Possui true/false para tipos de caracteres
-# Possui também except para erros de digitação
+# Project: Password Generator
 
 import random
 import string
 
-# Função com parametros TRUE por padrão e tamanho 12.
+# Function with default parameters: all True and length = 12
 def generate_password(length=12, use_uppercase=True, use_digits=True, use_symbols=True):
     characters = list(string.ascii_lowercase)
 
@@ -27,13 +25,15 @@ def generate_password(length=12, use_uppercase=True, use_digits=True, use_symbol
 
 def main():
     print("=== Gerador de Senhas Aleatórias ===")
-
+    # If error, use 12.
     try:
-        length = int(input("Digite o tamanho da senha (ex.: 12): "))
+        length = int(input("Digite o tamanho da senha (ex.: 12): ").strip()) # Added strip
     except ValueError:
         print("Tamanho inválido, usando 12.")
         length = 12
 
+    # True only if input == "s"
+    # for default, use only lower letters
     use_uppercase = input("Incluir letras maiúsculas? (s/n): ").strip().lower() == "s"
     use_digits = input("Incluir números? (s/n): ").strip().lower() == "s"
     use_symbols = input("Incluir símbolos? (s/n): ").strip().lower() == "s"
@@ -48,5 +48,6 @@ def main():
     print("\nSenha gerada:")
     print(password)
 
+# Start the app
 if __name__ == "__main__":
     main()
